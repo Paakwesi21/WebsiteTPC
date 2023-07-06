@@ -1,0 +1,72 @@
+
+h1{
+    text-align: center;
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.menu{
+    margin: 0;
+    padding: 10px;
+    height: 20px;
+    background-color: darkorange;
+}
+
+.menu li{
+    display: inline;
+}
+
+.video {
+    width: 500px;
+    height: 281px;
+}
+
+.video2{
+    width: 500px;
+    height: 281px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.5cm;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  img.head{
+    width: 100%;
+    height: 200px;
+  }
+
+
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-style: none;
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.button:link{
+    background-color: darkorange;
+    color: black;
+}
+
+.button:hover{
+    background-color: azure;
+}
+
